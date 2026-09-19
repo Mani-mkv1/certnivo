@@ -157,7 +157,7 @@ export default function Home() {
             <div className="eyebrow">Everything in one place</div>
             <h2>Learn. Practice. Improve.</h2>
             <p>
-              PrepNexa is being built around the real problem learners face:
+              CertNivo is being built around the real problem learners face:
               too many resources and no clear path through them.
             </p>
           </div>
@@ -223,7 +223,7 @@ export default function Home() {
       <section id="how-it-works" className="section how-section">
         <div className="container">
           <div className="section-heading">
-            <div className="eyebrow">The PrepNexa approach</div>
+            <div className="eyebrow">The CertNivo approach</div>
             <h2>A clearer way to prepare</h2>
           </div>
 
@@ -274,7 +274,7 @@ export default function Home() {
             <div className="eyebrow">Starting with AZ-104</div>
             <h2>Your certification journey starts here.</h2>
             <p>
-              PrepNexa is being built one certification at a time, with
+              CertNivo is being built one certification at a time, with
               learners at the center of the experience.
             </p>
           </div>
@@ -298,7 +298,7 @@ export default function Home() {
           </div>
 
           <div className="footer-note">
-            PrepNexa is an independent learning platform.
+            CertNivo is an independent learning platform.
           </div>
         </div>
       </footer>
