@@ -51,7 +51,7 @@ export default function Home() {
       <nav className="navbar">
         <div className="container nav-inner">
           <a href="/" className="logo">
-            Prep<span>Nexa</span>
+            CertNivo
           </a>
 
           <div className="nav-links">
@@ -210,9 +210,16 @@ export default function Home() {
 
                 <p>{certification.description}</p>
 
-                <a href="#" className="text-link">
-                  Explore path →
-                </a>
+                <a
+  href={
+    certification.code === "AZ-104"
+      ? "/certifications/az-104"
+      : "#"
+  }
+  className="text-link"
+>
+  Explore path →
+</a>
               </article>
             ))}
           </div>
@@ -290,11 +297,9 @@ export default function Home() {
         <div className="container footer-inner">
           <div>
             <a href="/" className="logo">
-              Prep<span>Nexa</span>
+              CertNivo
             </a>
-            <p>
-              Structured certification learning for everyone.
-            </p>
+            <p>Structured certification learning for everyone.</p>
           </div>
 
           <div className="footer-note">
